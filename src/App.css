@@ -4,7 +4,7 @@
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  background-color: rgb(197, 197, 197);
+  background-color: rgb(221, 221, 221);
 }
 
 .form,
@@ -12,6 +12,11 @@
 .registerForm {
   display: flex;
   flex-direction: column;
+}
+input{
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
 }
 label {
   text-align: left;
@@ -24,7 +29,8 @@ label {
 .registerButton,
 .loginButton {
   background: none;
+  color: rgb(69, 69, 253);
   border: none;
   margin: 0.3cm;
-  text-shadow: 2px 2px 10px rgb(255, 0, 0);
+  text-shadow: 1px 5px 15px black;
 }
